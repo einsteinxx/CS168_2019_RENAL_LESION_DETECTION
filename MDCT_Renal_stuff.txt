@@ -1,0 +1,95 @@
+Renal cell carcinoma (RCC) is the most common malignancy of the kidney, and accounts for 
+
+approximately 2-3% of all cancers. Up to 70% of renal neoplasms are detected incidentally at 
+
+imaging, and up to 40% of renal masses under one centimeter have been reported to be benign 
+
+at nephrectomy. Historically, imaging has been used for lesion detection but not 
+
+characterization, and all solid enhancing renal masses without macroscopic fat are presumed to 
+
+be malignant. Up to 30% of lesions undergoing nephrectomy are found to be benign, most 
+
+commonly oncocytoma and fat-poor angiomyolipoma (fp-AML), subjecting these patients to 
+
+risks of unnecessary anesthesia and surgery. While these benign lesions may undergo active 
+
+surveillance, clear cell RCC (ccRCC) is more likely to be treated with resection or ablation due to 
+
+its higher incidence and metastatic potential.   
+
+Several studies have demonstrated unique multiphasic patterns of contrast enhancement for 
+
+individual histological RCC subtypes on multiphasic multidetector computed tomography 
+
+(MDCT). These patterns are identified by visual assessment of peak lesion enhancement and 
+
+manual placement of a region of interest (ROI) within the most enhancing portion of the lesion 
+
+and background cortex over multiple phases of enhancement, often without the use of a 
+
+standardized four-phase protocol. This technique is inherently operator dependent and 
+
+subjective, with variable results reported.  A reproducible and robust method to differentiate 
+
+renal lesions on imaging is desired to minimize subjectivity and ensure widespread 
+
+Applicability. 
+
+ 
+
+ 
+
+ 
+
+NOTES: 
+
+Multiphasic MULTIdetector CT 
+
+Identified with visual assessment 
+
+Requires manual ROI 
+
+Multienergy beamset 
+
+ 
+
+Automated method to detect renal lesions  
+
+ 
+
+Abdom Radiol (NY). 2018 Oct;43(10):2734-2742. doi: 10.1007/s00261-018-1546-8. 
+
+Utility of multiphasic multidetector computed tomography in discriminating between clear cell renal cell carcinomas with high and low carbonic anhydrase-IX expression. 
+
+Young JR1, Coy H2, Kim HJ2, Douek M2, Sisk A3, Belldegrun A4, Pantuck AJ4, Raman SS2. 
+
+ 
+
+ 
+
+Yashiro, N., Yoshida, H., Asai, S., Ohtomo, K., Itai, Y., & Iio, M. (January 01, 1985). Incidentally discovered small renal carcinoma: CT and angiography. Radiation Medicine, 3, 1.) 
+
+ 
+
+ 
+
+ 
+
+Yoon, C. Y., Sung, D. J., Lee, J. H., Kim, A. R., Oh, C. W., Je, J. H., Weon, B. M., ... Yoon, D. K. (February 01, 2007). Imaging of renal and prostate carcinoma with refractive index radiology. International Journal of Urology, 14, 2, 96-103. 
+
+ 
+
+World J Radiol. 2015 Jun 28; 7(6): 110–127. 
+
+Published online 2015 Jun 28. doi: 10.4329/wjr.v7.i6.110 
+
+PMCID: PMC4473304 
+
+PMID: 26120380 
+
+Advances of multidetector computed tomography in the characterization and staging of renal cell carcinoma 
+
+Athina C Tsili and Maria I Argyropoulou 
+
+  
