@@ -46,15 +46,18 @@ NOTES:
 
 Multiphasic MULTIdetector CT 
 
-Identified with visual assessment 
+ Identified with visual assessment 
 
-Requires manual ROI 
+ Requires manual ROI 
 
-Multienergy beamset 
+ Multienergy beamset 
 
  
 
-Automated method to detect renal lesions  
+Automated method to detect renal lesions
+  ML or contrast based segmentation
+  detector based?
+  Multiphase attenuation based? just multiple collects at different E?
 
  
 
