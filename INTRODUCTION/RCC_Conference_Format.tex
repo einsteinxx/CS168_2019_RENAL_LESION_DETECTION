@@ -1,0 +1,82 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Differentiating Malignant vs. Benign Renal Lesions on CT\\
+\thanks{Identify applicable funding agency here. If none, delete this.}
+}
+
+\author{\IEEEauthorblockN{Erdi Kidane}
+\IEEEauthorblockA{\textit{UCLA} \\
+Los Angeles, USA \\
+Erdi.Kidane@engineering.ucla.edu}
+\and
+\IEEEauthorblockN{Xuesen Cui}
+\IEEEauthorblockA{\textit{UCLA} \\
+Los Angeles, USA \\
+cuixuesen@ucla.edu}
+\and
+\IEEEauthorblockN{Keane Gonzalez}
+\IEEEauthorblockA{\textit{} 
+Los Angeles, USA \\
+kgonza@g.ucla.edu}
+
+}
+
+\maketitle
+
+\begin{abstract}
+This document is a model and instructions for \LaTeX.
+This and the IEEEtran.cls file define the components of your paper [title, text, heads, etc.]. *CRITICAL: Do Not Use Symbols, Special Characters, Footnotes, 
+or Math in Paper Title or Abstract.
+\end{abstract}
+
+\begin{IEEEkeywords}
+renal carcinoma, machine learning
+\end{IEEEkeywords}
+
+\section{Introduction}
+More than 47,000 Americans have died from some form of kidney disease, this number is higher than deaths due to breast and prostate cancer [1]. Of this group, 13,570 deaths are due specifically to kidney cancer [2].  The most common renal malignancy is called renal cell carcinoma (RCC).  Which alone, accounts for 3\% of all types of cancers within the United States [3]. According to the National Institutes of Health indicates that the real rate of new kidney cancer diagnosis not due to improvement in detection methods is also increasing [3].   
+
+Medical history is often considered when screening for RCC.  Beyond this there is no other standardized screening test for this disease [4].  The current most commonly used method to detect lesions within the kidneys are CT scans.  Once a mass in detected further, more invasive and expensive analysis is required to determine whether it is benign or malignant.  As a rule, masses without microscopic fat are to be considered malignant [5] until proven otherwise via further testing. 
+
+Recent work attempts to differentiate between benign and malignant masses via Google’s TensorFlow software with the goal of automating and generalizing the method of characterization enough to be widely applicable and subjecting patients to less invasive procedures.   The method uses images derived from CT scans of renal masses and stacking them to create a 3D volume of interest (VOI).  Since TensorFlow requires 2D images, further refinement is required [5]. Once VOI datasets are created they are ran through a training model where each iteration contained 10% validation data and 90% training data [5].   
+
+If detected early enough, RCC has a 90\%-65\% survival rate, but detection of RCC has proved to be challenging due to the fact that symptoms, blood in urine, weight loss, abdominal or flank pain can be caused by a number of other issues unrelated to the kidneys [6, 7]. Furthermore, symptoms are usually not seen until the disease as progressed sufficiently thus lowering the odds of early detection [6].  With these challenges in mind, it is important that there be a way to use CT scans to quickly and accurately eliminate or confirm RCC as a diagnosis.  
+
+In this paper we will attempt to build upon work done using deep learning and radiomics to detect RCC [5].  Our dataset will primarily consist of the same CT derived datasets used by Dr. Coy and her team.  We will investigate the possibility of further refining the model developed by Dr. Coy and her team. It is our hope that further refinement of this tool will yield to not only improvement in this area but perhaps with some tweaks find use in detecting other types of cancerous cells throughout the human body.  
+
+
+\section*{Acknowledgment}
+
+-----PLACEHOLDER-----
+
+\section*{References}
+
+-----IS THIS NECESSARY FOR A ONE PAGE INTRO?? 
+%
+% References Section
+%
+\begin{thebibliography}{00}
+\bibitem{b1} C. G. Wood, L. J. Stromberg, C. B. Harmath, J. M. Horowitz, C. Feng, N. A. Hammond, D. D. Casalino, L. A. Goodhartz, F. H. Miller, and P. Nikolaidis, “CT and MR Imaging for Evaluation of Cystic Renal Lesions and Diseases,” RadioGraphics, vol. 35, no. 1, pp. 125–141, 2015. 
+\bibitem{b2} W.-H. Chow, L. M. Dong, and S. S. Devesa, “Epidemiology and risk factors for kidney cancer,” Nature reviews. Urology, May-2010. [Online]. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3012455/. [Accessed: 28-Apr-2019]. 
+\bibitem{b3} Global Burden of Disease Cancer Collaboration. JAMA Oncol 2015; 1: 505-527 
+\bibitem{b4} KB. Rini, S. C. Campbell, B. Escudeir, “Renal Cell Carcinoma,” The Lancet, vol 373, no 9669 Mar 2009 
+\bibitem{b5} H. Coy, K. Hsieh, W. Wu, M. B. Nagarajan, J. R. Young, M. L. Douek, M. S. Brown, F. Scalzo, and S. S. Raman, “Deep learning and radiomics: the utility of Google TensorFlow™ Inception in classifying clear cell renal cell carcinoma and oncocytoma on multiphasic CT,” Abdominal Radiology, 2019. 
+\bibitem{b6} “Kidney Cancer,” NHS Choices. [Online]. Available: https://www.nhs.uk/conditions/kidney-cancer/. [Accessed: 28-Apr-2019]. 
+\bibitem{b7} R. S. Cotran, V. Kumar, T. Collins, and S. L. Robbins, Robbins pathologic basis of disease. Philadelphia: Saunders, 2007. 
+\end{thebibliography}
+\vspace{12pt}
+\color{red}
+IEEE conference templates contain guidance text for composing and formatting conference papers. Please ensure that all template text is removed from your conference paper prior to submission to the conference. Failure to remove the template text from your paper may result in your paper not being published.
+
+\end{document}
