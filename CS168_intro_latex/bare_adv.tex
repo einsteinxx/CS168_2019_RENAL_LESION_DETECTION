@@ -1,0 +1,42 @@
+\documentclass[10pt,journal,compsoc]{IEEEtran}
+
+\usepackage{cite}
+\usepackage[pdftex]{graphicx}
+
+\newcommand\MYhyperrefoptions{bookmarks=true,bookmarksnumbered=true,
+pdfpagemode={UseOutlines},plainpages=false,pdfpagelabels=true,
+colorlinks=true,linkcolor={black},citecolor={black},urlcolor={black}}
+
+\begin{document}
+\title{Differentiating Malignant vs. Benign Renal Lesions on CT
+}  % No need of project number
+
+\author{Team \#34: Erdi Kidane,
+        Xuesen Cui,
+        and~Keane Gonzalez}  % Do not add your mentor 
+
+\markboth{Paper submitted as part of UCLA CS168 - Spring 2019}{}
+\maketitle
+
+\IEEEraisesectionheading{\section{Introduction}\label{sec:introduction}}
+
+\IEEEPARstart
+{M}{ore} than 47,000 Americans have died from some form of kidney disease, this number is higher than deaths due to breast and prostate cancer~\cite{cite1}. Of this group, 13,570 deaths are due specifically to kidney cancer~\cite{cite2}.  The most common renal malignancy is called renal cell carcinoma (RCC).  Which alone, accounts for 3\% of all types of cancers within the United States~\cite{cite3}. According to the National Institutes of Health indicates that the real rate of new kidney cancer diagnosis not due to improvement in detection methods is also increasing~\cite{cite3}.
+
+Medical history is often considered when screening for RCC.  Beyond this there is no other standardized screening test for this disease~\cite{cite4}.  The current most commonly used method to detect lesions within the kidneys are CT scans.  Once a mass in detected further, more invasive and expensive analysis is required to determine whether it is benign or malignant.  As a rule, masses without microscopic fat are to be considered malignant~\cite{cite5} until proven otherwise via further testing.
+
+Recent work attempts to differentiate between benign and malignant masses via Google’s TensorFlow software with the goal of automating and generalizing the method of characterization enough to be widely applicable and subjecting patients to less invasive procedures.   The method uses images derived from CT scans of renal masses and stacking them to create a 3D volume of interest (VOI).  Since TensorFlow requires 2D images, further refinement is required~\cite{cite5}. Once VOI datasets are created they are ran through a training model where each iteration contained 10\% validation data and 90\% training data~\cite{cite5}.
+
+If detected early enough, RCC has a 90\%-65\% survival rate, but detection of RCC has proved to be challenging due to the fact that symptoms, blood in urine, weight loss, abdominal or flank pain can be caused by a number of other issues unrelated to the kidneys~\cite{cite6}~\cite{cite7}. Furthermore, symptoms are usually not seen until the disease as progressed sufficiently thus lowering the odds of early detection~\cite{cite6}.  With these challenges in mind, it is important that there be a way to use CT scans to quickly and accurately eliminate or confirm RCC as a diagnosis.
+
+In this paper we will attempt to build upon work done using deep learning and radiomics to detect RCC~\cite{cite5}.  Our dataset will primarily consist of the same CT derived datasets used by Dr. Coy and her team.  We will investigate the possibility of further refining the model developed by Dr. Coy and her team. It is our hope that further refinement of this tool will yield to not only improvement in this area but perhaps with some tweaks find use in detecting other types of cancerous cells throughout the human body.
+
+\cleardoublepage
+
+\bibliography{bibliography}{}
+\bibliographystyle{IEEEtran}
+
+% that's all folks
+\end{document}
+
+
